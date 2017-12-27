@@ -15,6 +15,7 @@
 		019B70A81FE213C100748C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B70A71FE213C100748C91 /* main.m */; };
 		019B70B21FE213C100748C91 /* HGProgressRingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B70B11FE213C100748C91 /* HGProgressRingViewTests.m */; };
 		019B70BD1FE213C100748C91 /* HGProgressRingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B70BC1FE213C100748C91 /* HGProgressRingViewUITests.m */; };
+		019B70D41FE219A300748C91 /* HGProgressRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B70D31FE219A300748C91 /* HGProgressRingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		019B70B81FE213C100748C91 /* HGProgressRingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGProgressRingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		019B70BC1FE213C100748C91 /* HGProgressRingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGProgressRingViewUITests.m; sourceTree = "<group>"; };
 		019B70BE1FE213C100748C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019B70D21FE219A300748C91 /* HGProgressRingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGProgressRingView.h; sourceTree = "<group>"; };
+		019B70D31FE219A300748C91 /* HGProgressRingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGProgressRingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		019B70971FE213C100748C91 /* HGProgressRingView */ = {
 			isa = PBXGroup;
 			children = (
+				019B70CA1FE213FE00748C91 /* HGProgressRingView */,
 				019B70981FE213C100748C91 /* AppDelegate.h */,
 				019B70991FE213C100748C91 /* AppDelegate.m */,
 				019B709B1FE213C100748C91 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				019B70BE1FE213C100748C91 /* Info.plist */,
 			);
 			path = HGProgressRingViewUITests;
+			sourceTree = "<group>";
+		};
+		019B70CA1FE213FE00748C91 /* HGProgressRingView */ = {
+			isa = PBXGroup;
+			children = (
+				019B70D21FE219A300748C91 /* HGProgressRingView.h */,
+				019B70D31FE219A300748C91 /* HGProgressRingView.m */,
+			);
+			path = HGProgressRingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				019B709D1FE213C100748C91 /* ViewController.m in Sources */,
+				019B70D41FE219A300748C91 /* HGProgressRingView.m in Sources */,
 				019B70A81FE213C100748C91 /* main.m in Sources */,
 				019B709A1FE213C100748C91 /* AppDelegate.m in Sources */,
 			);
